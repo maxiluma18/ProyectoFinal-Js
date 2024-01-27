@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FF9671;
+}
+/* !!------------------------------ HEADER------------------- */
+
+header{
+    border-bottom: .625rem #FFC75F solid;
+    background-color: #FF9671;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tituloPrincipal{
+    color: #FFC75F;
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+
+#carrito{
+    position: relative;
+}
+
+.imgCarrito{
+    height: 65px;
+
+    cursor: pointer;
+}
+
+#cantProducts{
+    position: absolute;
+    top: 2.5rem;
+    right: 3.2rem;
+    background-color: #FFC75F;
+    border-radius: 5px  ;
+    font-size: 20px;
+}
+
+/* !!-------------------------------------- MAIN ----------------------*/
+
+/* !!------------------Filtro------------------ */
+.filtro{
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    background-color: #FFC75F;
+    color: #FF9671;
+}
+
+/* !!-------------------!!--Cards--------------------- */
+#principal{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #FF9671;
+}
+
+.card{
+    background-color: #FF9671;
+    border:4px #FFC75F solid;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card:hover{
+    box-shadow: 0px -1px 157px 89px rgba(255,199,95,0.82);
+    -webkit-box-shadow: 0px -1px 157px 89px rgba(255,199,95,0.82);
+    -moz-box-shadow: 0px -1px 157px 89px rgba(255,199,95,0.82);
+}
+.card > img{
+    height: 345px;
+    border-bottom: 4px #FFC75F solid;
+}
+.card > h3{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFC75F;
+}
+.card > p{
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFC75F;
+}
+
+.boton {
+    min-width: 130px;
+    height: 40px;
+    color: #FF9671;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #FFC75F;
+    background: #FFC75F;
+}
+.boton:hover {
+    background: #FF9671;
+    color: #FFC75F
+}
+
+
+/* !!----------------------!!Carrito -------------------------*/
+
+
+#cart{
+    width: 100%;
+    max-height: 95vh;
+    color: #FF9671;
+    background-color:#fffb00;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 0vh;
+    scrollbar-color:none;
+
+}
+
+#cart::-webkit-scrollbar{
+    display: none;
+}
+.headerCarrito{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom:3px #FF9671 solid;
+
+}
+.headerX, .h1HeaderCarrito{
+    font-size: 3em;
+}
+.headerX{
+    cursor: pointer;
+}
+.contenidoCarrito{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    border-bottom: 2px #FF9671 solid;
+
+}
+
+.contenidoCarrito >img{
+    height: 169px;
+    width: 200px;
+    margin: 10px 20px;
+}
+
+.contenidoCarrito > p, h3{
+    font-size: 30px;
+}
+.h3Carrito{
+    width: 200px;
+}
+
+.eliminarProducto{
+    background-color: rgb(255, 12, 12);
+    cursor: pointer;
+    color: black;
+    width: 150px;
+}
+.headerFooter{
+    font-size: 20px;
+}
+.total{
+    font-size: 30px;
+}
+
+
+.botonComprar,
+.botonReinicio{
+    
+    min-width: 130px;
+    height: 40px;
+    color: #FF9671;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #FFC75F;
+    background: #FFC75F;
+    margin-bottom: 5px;
+    
+}
+
+.botonComprar:hover,
+.botonReinicio:hover{
+    background: #FF9671;
+    color: #FFC75F
+    
+}
