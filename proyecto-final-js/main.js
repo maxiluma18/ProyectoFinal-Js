@@ -1,10 +1,10 @@
-import { productos } from "./src/stockProductos";
+import productosJson from "./src/productos"
 import funcionesCarrito from "./src/funcionesCarrito"
-import carritoFuncion from "./src/carrito"
-
 
 let stock = document.querySelector("#principal")
 const filtro = document.querySelector("#filtroProductos")
+
+const  productos = await productosJson.traerProductos();
 
 const app = ()=>{
     //Cards iniciales
