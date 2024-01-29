@@ -9,7 +9,10 @@
     "nombre",
     "precio",
     "productos",
-    "Subatón"
+    "Subatón",
+    "Swal",
+    "toastify",
+    "Toastify"
   ],
   "cSpell.language": "en,es-ES"
 }

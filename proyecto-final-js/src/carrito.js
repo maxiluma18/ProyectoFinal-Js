@@ -1,5 +1,4 @@
 import funcionesCarrito from "./funcionesCarrito"
-import { productos } from "./stockProductos"
 
 const carrito = document.querySelector("#imgCarrito")
 const ubiCart = document.querySelector("#cart")
