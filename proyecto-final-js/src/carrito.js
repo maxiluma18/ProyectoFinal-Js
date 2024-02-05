@@ -72,6 +72,8 @@ const cart=()=>{
 
 carrito.addEventListener("click", cart)
 
+
+
 export default{
     cart
 }

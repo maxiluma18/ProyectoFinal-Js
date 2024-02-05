@@ -7,5 +7,8 @@
     {"id": 6, "nombre": "Relojes", "precio": 300, "img": "../img/OIP.jpeg"},
     {"id": 7, "nombre": "Bicicleta", "precio": 3000, "img": "../img/bicicleta.jpg"},
     {"id": 8, "nombre": "Tetera", "precio": 700, "img": "../img/tetera.webp"},
-    {"id": 9, "nombre": "Mechero", "precio": 300, "img": "../img/mechero.jpg"}
+    {"id": 9, "nombre": "Mechero", "precio": 300, "img": "../img/mechero.jpg"},
+    {"id": 10, "nombre": "Guitarra", "precio":850, "img": "../img/guitarra.jpg"},
+    {"id": 11, "nombre": "Auto", "precio":5000, "img": "../img/auto.jpg"},
+    {"id": 12, "nombre":"Bolígrafo", "precio":100, "img":"../img/boli.jpeg"}
 ]
