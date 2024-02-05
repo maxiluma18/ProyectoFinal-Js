@@ -4,6 +4,7 @@ import funcionesProductos from "./src/funcionesProductos"
 
 let stock = document.querySelector("#principal")
 const filtro = document.querySelector("#filtroProductos")
+let input = document.querySelector("#searchInput")
 
 const productos = await productosJson.traerProductos();
 
@@ -11,6 +12,7 @@ const productos = await productosJson.traerProductos();
 const app = ()=>{
     //Cards iniciales
     productos.forEach((producto) =>{
+        console.log(producto.nombre.toLowerCase());
         let card=document.createElement("div")
         card.className="card"
         card.innerHTML= `
@@ -38,6 +40,13 @@ const app = ()=>{
             funcionesProductos.filtros(filtro.value)
             funcionesCarrito.numeroCarrito();
             funcionesCarrito.cart
+    }
+
+    input.oninput=()=>{
+        stock.innerHTML="";
+        funcionesProductos.busqueda(input.value)
+        funcionesCarrito.numeroCarrito();
+        funcionesCarrito.cart
     }
 
 }

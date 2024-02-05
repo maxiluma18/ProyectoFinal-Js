@@ -53,14 +53,35 @@ header{
 /* !!-------------------------------------- MAIN ----------------------*/
 
 /* !!------------------Filtro------------------ */
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:  10px;
+}
+
+#searchInput{
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    color: #FF9671;
+    background-color: #FFC75F;
+    text-align: center;
+    font-size: 30px;
+}
+
+#searchInput::placeholder{
+    color: #FF9671;
+}
 
 
 .filtro{
-    width: 80%;
+    width: 50%;
+    height: 40px;
     text-align: center;
     font-size: 30px;
     margin-left: 10%;
-    margin-bottom: 10px;
+    border-radius: 8px;
     background-color: #FFC75F;
     color: #FF9671;
 }
@@ -124,6 +145,16 @@ header{
 .boton:hover {
     background: #FF9671;
     color: #FFC75F
+}
+
+.noResultado{
+    color: #FFC75F;
+    text-decoration: none;
+    font-size: 70px;
+    text-align: center;
+    margin-left: 30px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 
