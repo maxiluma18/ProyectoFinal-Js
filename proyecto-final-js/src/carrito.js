@@ -33,7 +33,6 @@ const cart = () => {
             let contenidoCarrito = document.createElement("div")
             contenidoCarrito.className = "contenidoCarrito"
             contenidoCarrito.innerHTML = `
-            <img src="${producto.img}" alt="...">
             <h3 class="h3Carrito">${producto.nombre}</h3>
             <p class="h3Carrito">$${producto.precio}</p>
             <p class="cantidad" >Unidades:${producto.cantidad}</p>

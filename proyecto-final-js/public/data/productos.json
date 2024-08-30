@@ -1,34 +1,33 @@
 [
-  { "id": 1, "nombre": "Vasija", "precio": 400, "img": "../../img/R.jpeg" },
-  { "id": 2, "nombre": "Camara", "precio": 900, "img": "../../img/camara.jpg" },
-  { "id": 3, "nombre": "Radio", "precio": 500, "img": "..././img/radio.jpg" },
+  { "id": 1, "nombre": "Vasija", "precio": 400 },
+  { "id": 2, "nombre": "Camara", "precio": 900 },
+  { "id": 3, "nombre": "Radio", "precio": 500 },
   {
     "id": 4,
     "nombre": "Maquina de Tejer",
-    "precio": 1000,
-    "img": "../../img/maquinaDeTejer.jpg"
+    "precio": 1000
   },
+  
   {
     "id": 5,
     "nombre": "Telefono",
-    "precio": 400,
-    "img": "../../img/telefono.jpg"
+    "precio": 400
   },
-  { "id": 6, "nombre": "Relojes", "precio": 300, "img": "../../img/OIP.jpeg" },
+  { "id": 6, "nombre": "Relojes", "precio": 300 },
   {
     "id": 7,
     "nombre": "Bicicleta",
-    "precio": 3000,
-    "img": "../img/bicicleta.jpg"
+    "precio": 3000
   },
-  { "id": 8, "nombre": "Tetera", "precio": 700, "img": "../../img/tetera.webp" },
-  { "id": 9, "nombre": "Mechero", "precio": 300, "img": "../../img/mechero.jpg" },
+  
+  { "id": 8, "nombre": "Tetera", "precio": 700 },
+  { "id": 9, "nombre": "Mechero", "precio": 300 },
   {
     "id": 10,
     "nombre": "Guitarra",
-    "precio": 850,
-    "img": "../../img/guitarra.jpg"
+    "precio": 850
   },
-  { "id": 11, "nombre": "Auto", "precio": 5000, "img": "../../img/auto.jpg" },
-  { "id": 12, "nombre": "Boligrafo", "precio": 100, "img": "../../img/boli.jpeg" }
+  
+  { "id": 11, "nombre": "Auto", "precio": 5000 },
+  { "id": 12, "nombre": "Boligrafo", "precio": 100 }
 ]

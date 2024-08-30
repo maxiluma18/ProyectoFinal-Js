@@ -13,7 +13,6 @@ const app = async () => {
         let card = document.createElement("div")
         card.className = "card"
         card.innerHTML = `
-      <img src="${producto.img}" alt="">
       <h3>${producto.nombre}</h3>
       <p>$${producto.precio}</p>
     `
